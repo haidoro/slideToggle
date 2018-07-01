@@ -15,7 +15,13 @@ dt{
 }
 dd{
 	border:1px solid #FF006D;
-	padding:10px;
 	margin-left:0;
+	padding: 0;
+	height:0;
+	overflow: hidden;
+	transition:height 0.5s;
+}
+dd.on{
 	height:500px;
+	padding:10px;
 }
